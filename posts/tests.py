@@ -14,8 +14,6 @@ class PostModelTest(TestCase):
 
 
 class HomePageViewTest(TestCase):
-
-
     def setUp(self):
         Post.objects.create(text='this is another test')
         
